@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "BTS Proof",
+      "precio": 622.247,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_853493-MCO73173218724_122023-O.webp"
+    },
+    {
+      "id": "2",
+      "nombre": "Butter",
+      "precio": 500.567,
+      "imagen": "https://www.supertiendakpop.co/wp-content/uploads/2021/10/BTS-Album-Butter-supertiendakpop-scaled.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Love Yourself",
+      "precio": 200.987,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_617230-MCO31006656158_062019-O.webp"
+    },
+    {
+      "id": "5d61",
+      "nombre": "Persona",
+      "precio": "555.665",
+      "imagen": "https://www.supertiendakpop.co/wp-content/uploads/2021/10/BTS-MAP-OF-THE-SOUL-PERSONA-supertiendakpop.jpg"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./style.css">  
+    
+</head>
+<body>
+    <header class="encabezado">
+        <img   src="./imagenes/Logo.png" alt="Logo de AluraGeek">
+    </header>
+    <main class="container">
+    <section class="productos"  data-productos>
+    <h1>MIS PRODUCTOS</h1>
+    </section>
+    <section class="formulario" data-formulario>
+    <h1>AGREGAR PRODUCTO</h1>
+    <form class="formulario___informacion">
+        <div>
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre..." data-nombre>
+        </div>
+        <div>
+        <label for="precio"></label>
+        <input type="text" id="precio" name="precio" required placeholder="Precio..." data-precio>
+        </div>
+        <div>
+        <label for="imagen"></label>
+        <input type="text" id="imagen" name="imagen"  required placeholder="Imagen..." data-imagen>
+        </div>
+        <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+        </div>
+    </form>
+    </section>
+
+    </main>
+    <footer class="footer">
+        <img   src="./imagenes/Logo.png" alt="Logo de AluraGeek">
+        <h3> Desarrollado por Daniela Martínez</h3>
+        <h4>ladmartinezb@gmail.com</h4>
+    </footer>
+    <script type="module" src="./js/mostrarProductos.js"></script>
+    <script type="module" src="./js/crearProducto.js"></script>
+</body>
+</html>
